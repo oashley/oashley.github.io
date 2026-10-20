@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+h1 {
+    background-color: #1d3557;
+    color: white;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.aircraft-list {
+    list-style-type: square;
+}
+
+.aircraft-list li {
+    margin-bottom: 0.5rem;
+}
+
+.aircraft-list li::marker {
+    color: #e63946;
+}
+
+li:hover {
+    color: #e63946;
+    transition: color 0.3s;
+}
+
+.featured img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+th {
+    background-color: #1d3557;
+    color: white;
+    text-align: left;
+}
+
+th, td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+a {
+    color: #1d3557;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e63946;
+}
